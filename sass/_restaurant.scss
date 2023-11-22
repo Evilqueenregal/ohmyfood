@@ -1,0 +1,28 @@
+
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+     a {
+        img {
+            height: 251px;
+            border-radius: 15px;
+            margin: 20px;
+            }
+        }
+}
+
+.card__badge {
+    background-color: #99e2d0;
+    color: #008766;
+    border-radius: 3px;
+    padding: 6px 12px;
+    border-top: 12px;
+    border-right: 12px;
+}
+
+
+

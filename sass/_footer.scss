@@ -1,0 +1,23 @@
+footer {
+    background-color: #353535;
+    height: 186px;
+    padding: 22px 25px 22px 25px;
+    gap: 16px;
+    
+    .title {
+        img {
+        font: shrikhand;
+        font-weight: 400;
+        font-style: italic;
+        size: 18px;
+        line-height: 26.24px;
+        color: white;
+        }
+    }
+}
+
+.menu i  a {
+    display: flex;
+    flex-direction: column;
+
+}

@@ -1,0 +1,38 @@
+.fonction__icons {
+    display: flex;
+    flex-direction: column;
+    background-color:#fff ;
+    list-style: none;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.fonction__number {
+    background-color: #9356dc;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    padding: 4px 9px;
+    border-radius: 50px;
+}
+
+ul {
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    background-color: #f6f6f6;
+    box-shadow: 0 4px 8px 5px #fff;
+    border-radius: 20px;
+    padding: 28px 35px;
+    margin: 0 14px;
+    transition: 3s;
+}
