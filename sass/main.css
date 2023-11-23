@@ -27,7 +27,8 @@ header .logo a img {
   background-color: #9356dc;
   color: #fff;
   font-size: 14px;
-  position: absolute;
+  position: relative;
+  left: -42px;
   padding: 4px 9px;
   border-radius: 50px;
 }
@@ -50,26 +51,53 @@ li {
   transition: 3s;
 }
 
-.card {
+.container {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+.container .card {
   background-color: #fff;
   border-radius: 20px;
   text-decoration: none;
   color: #000;
   position: relative;
-}
-.card a img {
   height: 251px;
-  border-radius: 15px;
-  margin: 20px;
 }
-
-.card__badge {
+.container .card .card__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .card .card__image {
+  height: 75%;
+}
+.container .card .card__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.container .card .card__badge {
   background-color: #99e2d0;
   color: #008766;
   border-radius: 3px;
   padding: 6px 12px;
   border-top: 12px;
   border-right: 12px;
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.container .card .card__rating {
+  width: 22px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 30px;
 }
 
 footer {
@@ -78,18 +106,29 @@ footer {
   padding: 22px 25px 22px 25px;
   gap: 16px;
 }
-footer .title img {
-  font: shrikhand;
+footer .title h3 {
+  font-family: shrikhand;
   font-weight: 400;
   font-style: italic;
   size: 18px;
   line-height: 26.24px;
   color: white;
+  margin-bottom: 22px;
 }
-
-.menu i a {
+footer nav {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+footer nav a {
+  color: white;
+}
+footer nav a i {
+  color: white;
+  margin-right: 10px;
+}
+footer nav a .fa-utensils {
+  margin-right: 15px;
 }
 
 * {

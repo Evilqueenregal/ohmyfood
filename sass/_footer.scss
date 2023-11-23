@@ -3,21 +3,31 @@ footer {
     height: 186px;
     padding: 22px 25px 22px 25px;
     gap: 16px;
-    
     .title {
-        img {
-        font: shrikhand;
+        h3 {
+        font-family: shrikhand;
         font-weight: 400;
         font-style: italic;
         size: 18px;
         line-height: 26.24px;
         color: white;
+        margin-bottom: 22px;
         }
     }
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        a {
+            color: white;
+            i {
+                color: white;
+                margin-right: 10px;
+            }
+            .fa-utensils {
+                margin-right: 15px;
+            }
+        }
+    } 
 }
 
-.menu i  a {
-    display: flex;
-    flex-direction: column;
-
-}

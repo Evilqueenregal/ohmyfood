@@ -7,6 +7,7 @@
     <title>ohmyfood</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -36,8 +37,8 @@
             <div class="container">
                 <h1>Fonctionnement</h1>
             </div>
-            <ul class="fonction__icons">
-                <li class="fonction__icons">
+            <ul class="fonction__icon">
+                <li class="fonction__icon">
                     <span class="fonction__number">1</span>
                     <i class="fa-solid fa-mobile-screen-button"></i>
                     <span>Choisissez un restaurant</span>
@@ -56,8 +57,7 @@
         </section>
         <section class="restaurants">
             <div class="container">
-                <h1>Restaurans</h1>
-            <div class="card">
+                <h1>Restaurans</h1>    
                 <a href="la-palette-du-gout.html" class="card">
                     <div class="card__image">
                         <img src="./images/restaurants/jay-wennington.jpg" alt="La palette du gout">
@@ -68,11 +68,10 @@
                                 <h2 class="card__title">La palette du goût</h2>
                                 <span class="card__subtile">Ménilmontant</span>
                             </div>
-                        </div>
-                        <div class="card__rating">
-                            <i class="fa-thin fa-heart"></i>
-                        </div>
-                    </div>
+                            <div class="card__rating">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div> 
                 </a>
                 <a href="La-note-enchantee.html" class="card">
                     <div class="card__image">
@@ -80,53 +79,58 @@
                         <span class="card__badge">Nouveau</span>
                     </div>
                         <div class="card__content">
-                            <h2 class="card__title">La note enchantée</h2>
-                            <span class="card__subtile">Charonne</span>
+                            <div class="card__txt">
+                                <h2 class="card__title">La note enchantée</h2>
+                                <span class="card__subtile">Charonne</span>
+                            </div>
+                            <div class="card__rating">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
                         </div>
-                    <div class="card__rating">
-                        <i class="fa-thin fa-heart"></i>
-                    </div>
                 </a>
                 <a href="A-la-francaise.html" class="card">
                     <div class="card__image">
                         <img src="./images/restaurants/toa-heftiba.jpg" alt="A la francaise">
                     </div>
                         <div class="card__content">
-                            <h2 class="card__title">A la française</h2>
-                            <span class="card__subtile">Cité Rouge</span>
+                            <div class="card__txt">
+                                <h2 class="card__title">A la française</h2>
+                                <span class="card__subtile">Cité Rouge</span>
+                            </div>
+                            <div class="card__rating">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
                         </div>
-                    <div class="card__rating">
-                        <i class="fa-thin fa-heart"></i>
-                    </div>
                 </a>
                 <a href="Le-delice-des-sens" class="card">
                     <div class="card__image">
                         <img src="./images/restaurants/louis-hansel-shotsoflouis.jpg" alt="Le delice des sens">
                     </div>
                         <div class="card__content">
-                            <h2 class="card__title">Le délice des sens</h2>
-                            <span class="card__subtile">Folie-Méricourt</span>
+                            <div class="card__txt">
+                                <h2 class="card__title">Le délice des sens</h2>
+                                <span class="card__subtile">Folie-Méricourt</span>
+                            </div>
+                            <div class="card__rating">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
                         </div>
-                    <div class="card__rating">
-                        <i class="fa-thin fa-heart"></i>
-                    </div>
                 </a>
+            
             </div>   
             </div>
         </section>
     </main>
         <footer>
             <div class="title">
-                <img src="./images/logo/ohmyfood.png">
+                <h3>ohmyfood</h3>
             </div>
-            <div class="menu">
-                <i class="fa-solid fa-utensils"></i>
-                <a>Proposer un restaurant</a>
-                <i class="fa-solid fa-handshake-angle"></i>
-                <a>Devenir partenaire</a>
+            <nav class="menu">
+                <a><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
+                <a> <i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
                 <a>Mentions légales</a>
                 <a>Contact</a>
-            </div>
+            </nav>
         </footer>
 </body>
 </html>
