@@ -12,6 +12,10 @@ header .logo a img {
   border-left: 89px;
 }
 
+.fonction .container {
+  background-color: white;
+  }
+
 .fonction__icons {
   display: flex;
   flex-direction: column;
@@ -56,8 +60,8 @@ li {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 30px;
 }
+
 .container .card {
   background-color: #fff;
   border-radius: 20px;
@@ -95,9 +99,9 @@ li {
   width: 22px;
   height: 30px;
   position: absolute;
-  right: 20px;
   bottom: 20px;
   font-size: 30px;
+  right: 30px;
 }
 
 footer {
@@ -159,17 +163,20 @@ footer nav a .fa-utensils {
 }
 
 .info {
-  padding: 32px;
+ 
   text-align: center;
   background-color: #fafafa;
 }
 
 p {
   display: block;
-  margin-block-start: 16px;
+  margin-block-start: 22px;
   margin-block-end: 33px;
   margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-end: 11px;
+  color: #353535;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .info__btn {
@@ -184,4 +191,160 @@ p {
   cursor: pointer;
   transition-duration: 25s;
   box-shadow: 4px 4px 10px;
+}
+
+header {
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+header .logo a img {
+  width: 197px;
+  height: 36px;
+  border-top: 14px;
+  border-left: 89px;
+}
+
+.lien-icon i {
+  width: 17.2px;
+  height: 16px;
+  position: absolute;
+  margin-top: 9px;
+  margin-left: -99px;
+  color: #353535;
+}
+
+.en-tete img {
+  width: 100%;
+  height: 330px;
+}
+
+.palette {
+  background-color: #f6f6f6;
+  height: 1050px;
+}
+
+.delices {
+  background-color: #f6f6f6;
+  height: 1050px;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: roboto;
+  font-weight: bold;
+  color: #000000;
+}
+
+.info {
+  margin-bottom: 25px;
+  padding: 20px;
+}
+.info i {
+  width: 22px;
+  position: absolute;
+  right: 20px;
+  top: 442px;
+  padding: 6px 12px;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: roboto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.card__content {
+  background-color: white;
+  border-radius: 15px;
+  width: 349px;
+  margin: 20px;
+}
+.card__content .card__txt {
+  width: 287px;
+}
+
+.card__rating {
+  position: absolute;
+  right: 80px;
+  width: 30px;
 }/*# sourceMappingURL=main.css.map */
+
+h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: shrikhand;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 28px;
+  line-height: 40.82px;
+}
+
+h5 {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 4.75;
+  color: #000000;
+  text-decoration: underline 3px;
+  text-decoration-color: #99e2d0;
+  margin: 20px;
+}
+
+h6 {
+  color: #000000;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+.card__content2 {
+  background-color: white;
+  border-radius: 15px;
+  width: 349px;
+  margin: 20px;
+  .card__txt2 {
+      width: 287px;
+      margin: 15px;
+  }
+}
+
+.card__rating2 {
+  position: absolute;
+  right: 80px;
+  width: 30px;
+}
+
+.info__prix2 {
+  width: 27px;
+  height: 18px;
+  line-height: 17.63px;
+  position: absolute;
+  bottom: 30px;
+  font-weight: bold;
+  font-size: 15.04px;
+}
+
+  .button__btn2 {
+      display: flex;
+      justify-content: center;
+      border: 0;
+      padding: 12px 24px;
+      font-weight: 500;
+      font-size: 17.6px;
+      border-radius: 100px;
+      color: #fff;
+      background-color: #686868;
+      background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+      cursor: pointer;
+      transition-duration: 25s;
+      box-shadow: 4px 4px 10px;
+      margin-right: 90px;
+      margin-left: 90px;
+  }
