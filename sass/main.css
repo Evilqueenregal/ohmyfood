@@ -220,6 +220,12 @@ header .logo a img {
   height: 330px;
 }
 
+
+.francaise {
+  background-color: #f6f6f6;
+  height: 1090px;
+}
+
 .palette {
   background-color: #f6f6f6;
   height: 1050px;
@@ -229,6 +235,12 @@ header .logo a img {
   background-color: #f6f6f6;
   height: 1050px;
 }
+
+.note {
+  background-color: #f6f6f6;
+  height: 1090px;
+}
+
 
 h1 {
   display: flex;
@@ -348,3 +360,5 @@ h6 {
       margin-right: 90px;
       margin-left: 90px;
   }
+
+ 

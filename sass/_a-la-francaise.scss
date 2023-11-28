@@ -1,0 +1,72 @@
+header {
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    .logo {
+        a {
+            img {
+               width: 197px;
+               height: 36px;
+               border-top: 14px;
+               border-left: 89px;
+            }
+        }
+        }
+    }
+    .lien-icon {
+        i {
+            width: 17.2px;
+            height: 16px;
+            position: absolute;
+            margin-top: 9px;
+            margin-left: -99px;
+            color: #353535;
+        }
+    }
+
+    .en-tete {
+        img {
+            width: 100%;
+            height: 330px;
+        }
+    }
+
+    .francaise {
+        background-color: #f6f6f6;
+        height: 1090px;
+    }
+
+   
+    
+    .info {
+        background-color: #f6f6f6;
+        margin-bottom: 25px;
+        padding: 0px;
+        i {
+            width: 22px;
+            position: absolute;
+            right: 20px;
+            top: 426px;
+            padding: 6px 12px;
+            font-size: 35px;
+        }
+    }
+
+    .button__btn2 {
+        display: flex;
+        justify-content: center;
+        border: 0;
+        padding: 12px 24px;
+        font-weight: 500;
+        font-size: 17.6px;
+        border-radius: 100px;
+        color: #fff;
+        background-color: #686868;
+        background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+        cursor: pointer;
+        transition-duration: 25s;
+        box-shadow: 4px 4px 10px;
+        margin-right: 90px;
+        margin-left: 90px;
+    }
