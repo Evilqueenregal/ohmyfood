@@ -1,10 +1,7 @@
 /****** General ******/
-@import"header";
-@import"fonction";
-@import"restaurant";
-@import"footer";
-@import"index";
-@import"la-palette-du-gout";
-@import"le-délice-des-sens";
-@import"la-note-enchantee";
-@import"a-la-francaise";
+@import"layout/header";
+@import"pages/accueil/fonction";
+@import"pages/accueil/restaurant";
+@import"layout/footer";
+@import"pages/accueil/index";
+@import"pages/stylePagesRestaurants.scss"

@@ -12,9 +12,9 @@ header .logo a img {
   border-left: 89px;
 }
 
-.fonction .container {
-  background-color: white;
-  }
+.fonction h2 {
+  margin-left: 20px;
+}
 
 .fonction__icons {
   display: flex;
@@ -60,8 +60,8 @@ li {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 30px;
 }
-
 .container .card {
   background-color: #fff;
   border-radius: 20px;
@@ -99,9 +99,9 @@ li {
   width: 22px;
   height: 30px;
   position: absolute;
+  right: 20px;
   bottom: 20px;
   font-size: 30px;
-  right: 30px;
 }
 
 footer {
@@ -141,6 +141,22 @@ footer nav a .fa-utensils {
   list-style: none;
 }
 
+.info {
+  background-color: #f6f6f6;
+  margin-bottom: 25px;
+  padding: 0px;
+}
+.info h1 {
+  color: deeppink;
+}
+.info p {
+  display: block;
+  margin-block-start: 16px;
+  margin-block-end: 33px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 .local {
   display: flex;
   justify-content: center;
@@ -149,34 +165,12 @@ footer nav a .fa-utensils {
   font-size: 19px;
   position: relative;
 }
-.local i {
+.local .fa-location-dot {
   color: #000;
   padding-right: 10px;
 }
-
-.local__icon {
-  margin-right: 16px;
-}
-
-.local__text {
+.local .local__text {
   font-weight: 700;
-}
-
-.info {
- 
-  text-align: center;
-  background-color: #fafafa;
-}
-
-p {
-  display: block;
-  margin-block-start: 22px;
-  margin-block-end: 33px;
-  margin-inline-start: 0px;
-  margin-inline-end: 11px;
-  color: #353535;
-  font-weight: 300;
-  font-size: 18px;
 }
 
 .info__btn {
@@ -193,20 +187,12 @@ p {
   box-shadow: 4px 4px 10px;
 }
 
-header {
-  height: 63px;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-header .logo a img {
-  width: 197px;
-  height: 36px;
-  border-top: 14px;
-  border-left: 89px;
+.en-tete img {
+  width: 100%;
+  height: 330px;
 }
 
-.lien-icon i {
+.lien-icon .fa-arrow-left {
   width: 17.2px;
   height: 16px;
   position: absolute;
@@ -215,122 +201,8 @@ header .logo a img {
   color: #353535;
 }
 
-.en-tete img {
-  width: 100%;
-  height: 330px;
-}
-
-
-.francaise {
+.container-menu {
   background-color: #f6f6f6;
-  height: 1090px;
-}
-
-.palette {
-  background-color: #f6f6f6;
-  height: 1050px;
-}
-
-.delices {
-  background-color: #f6f6f6;
-  height: 1050px;
-}
-
-.note {
-  background-color: #f6f6f6;
-  height: 1090px;
-}
-
-
-h1 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: roboto;
-  font-weight: bold;
-  color: #000000;
-}
-
-.info {
-  margin-bottom: 25px;
-  padding: 20px;
-}
-.info i {
-  width: 22px;
-  position: absolute;
-  right: 20px;
-  top: 442px;
-  padding: 6px 12px;
-  font-size: 35px;
-}
-
-h2 {
-  font-family: roboto;
-  font-size: 16px;
-  color: #000000;
-}
-
-.card__content {
-  background-color: white;
-  border-radius: 15px;
-  width: 349px;
-  margin: 20px;
-}
-.card__content .card__txt {
-  width: 287px;
-}
-
-.card__rating {
-  position: absolute;
-  right: 80px;
-  width: 30px;
-}/*# sourceMappingURL=main.css.map */
-
-h4 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: shrikhand;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 28px;
-  line-height: 40.82px;
-}
-
-h5 {
-  font-family: roboto;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 4.75;
-  color: #000000;
-  text-decoration: underline 3px;
-  text-decoration-color: #99e2d0;
-  margin: 20px;
-}
-
-h6 {
-  color: #000000;
-  font-family: roboto;
-  font-weight: bold;
-  font-size: 18px;
-  
-}
-
-.card__content2 {
-  background-color: white;
-  border-radius: 15px;
-  width: 349px;
-  margin: 20px;
-  .card__txt2 {
-      width: 287px;
-      margin: 15px;
-  }
-}
-
-.card__rating2 {
-  position: absolute;
-  right: 80px;
-  width: 30px;
 }
 
 .info__prix2 {
@@ -343,22 +215,14 @@ h6 {
   font-size: 15.04px;
 }
 
-  .button__btn2 {
-      display: flex;
-      justify-content: center;
-      border: 0;
-      padding: 12px 24px;
-      font-weight: 500;
-      font-size: 17.6px;
-      border-radius: 100px;
-      color: #fff;
-      background-color: #686868;
-      background-image: linear-gradient(0deg, #9356DC, #FF79DA);
-      cursor: pointer;
-      transition-duration: 25s;
-      box-shadow: 4px 4px 10px;
-      margin-right: 90px;
-      margin-left: 90px;
-  }
-
- 
+.info-title h4 {
+  font-family: shrikhand;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 28px;
+  line-height: 40.82px;
+  color: #101010;
+}
+.info-title .fa-heart {
+  color: darkred;
+}/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,8 @@
-
+.fonction {
+h2 {
+    margin-left: 20px;
+}
+}
 .fonction__icons {
     display: flex;
     flex-direction: column;
@@ -38,3 +42,4 @@ li {
     margin: 0 14px;
     transition: 3s;
 }
+
