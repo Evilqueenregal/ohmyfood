@@ -2,7 +2,8 @@
 .en-tete {
     img {
         width: 100%;
-        height: 330px;
+        height: 275px;
+
     }
 }
 
@@ -18,8 +19,23 @@
     }
 }
 
-.container-menu {
+//container de la note enchantee//
+.container-menu2 {
+    width: 100%;
     background-color:#f6f6f6;
+    height: 1295px;
+    border-radius: 45px 45px 0px 0px;
+    margin-top: -64px;
+    position: relative;
+}
+
+.container-menu {
+    width: 100%;
+    background-color:#f6f6f6;
+    height: 1185px;
+    border-radius: 45px 45px 0px 0px;
+    margin-top: -64px;
+    position: relative;
 }
 
 //prix des plats//
@@ -27,10 +43,11 @@
     width: 27px;
     height: 18px;
     line-height: 17.63px;
-    position: absolute;
+    position: relative;
     bottom: 30px;
     font-weight: bold;
     font-size: 15.04px;
+    margin-left: 357px;
   }
 
   //titre pages//
@@ -42,10 +59,66 @@
         font-size: 28px;
         line-height: 40.82px;
         color: #101010;
+        margin-left: 15px;
+        padding-top: 10px;
     }
     .fa-heart {
-        color: darkred;
+        color: black;
+        margin-top: -34px;
+        margin-left: 366px;
+        position: absolute;
+        font-size: xx-large;
     }
   }
 
+  h5 {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    color: black;
+    text-decoration: underline 3px solid #99e2d0;
+    padding-top: 28px;
+    padding-left: 20px;
+  }
   
+  .card__content2 {
+    height: 69px;
+    border-radius: 15.04px;
+    background-color: white;
+    h6 {
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: black;
+        padding-top: 15px;
+    }
+    .card__subtile2 {
+        font-family: roboto;
+        font-weight: 300;
+        font-size: 15.04px;
+        line-height: 17.63px;
+        margin-left: 30px;
+        color: black;
+    }
+  }
+
+  .button2 {
+    margin-top: 40px;
+
+  .button__btn2 {
+    border: 0;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 17.6px;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+    cursor: pointer;
+    margin-left: 125px;
+    box-shadow: 4px 4px 10px;
+  }
+}
