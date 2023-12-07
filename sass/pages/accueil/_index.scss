@@ -1,5 +1,5 @@
 *{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     list-style: none;
 }
@@ -7,26 +7,22 @@
 .info {
     background-color: #f6f6f6;
     margin-bottom: 25px;
-    padding: 0px;
-    height: 215px;
+    padding: 40px;
+    text-align: center;
     h1 {
         color: #000000;
-        font-family: roboto;
         font-weight: 700;
         font-size: 24px;
         line-height: 28.13px;
-        padding-top: 25px;
-        padding-left: 42px;
+        @media screen and (min-width: 1024px) {
+            font-size: 40px;
+        }  
     }
     p {
         margin-block-start: 16px;
         margin-block-end: 50px;
-        font-family: roboto;
         font-size: 18px;
         font-weight: 300;
-        height: 46px;
-        margin-top: 20px;
-        margin-left: 70px;
         color: #353535;
     }
 }
@@ -35,7 +31,7 @@
     display: flex;
     justify-content: center;
     padding: 20px 16px;
-    background-color: #f3f3f3;
+    background-color: #EAEAEA;
     font-size: 19px;
     position: relative;
     .fa-location-dot {
@@ -51,14 +47,11 @@
     border: 0;
     padding: 12px 24px;
     font-weight: 500;
-    font-size: 17.6px;
+    font-size: 18px;
     border-radius: 100px;
     color: #fff;
     background-color: #686868;
     background-image: linear-gradient(0deg, #9356DC, #FF79DA);
     cursor: pointer;
-    margin-left: 90px;
     box-shadow: 4px 4px 10px;
 }
-
-

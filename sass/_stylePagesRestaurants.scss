@@ -1,8 +1,9 @@
 //images des autres pages//
 .en-tete {
+    height: 275px;
+    object-fit: cover;
     img {
-        width: 100%;
-        height: 275px;
+        width: 100%;    
     }
 }
 
@@ -21,26 +22,14 @@
 //container de la note enchantee//
 .container-menu2 {
     width: 100%;
-    background-color: #f6f6f6;
-    height: 1185px;
+    background-color: #f6f6f6;  
     border-radius: 45px 45px 0px 0px;
     margin-top: -64px;
     position: relative;
 }
 
-//prix des plats//
-.info__prix2 {
-    width: 27px;
-    height: 18px;
-    line-height: 17.63px;
-    position: relative;
-    bottom: 30px;
-    font-weight: bold;
-    font-size: 15.04px;
-    margin-left: 357px;
-}
 
-//totre pages//
+//autres pages//
 .info-title {
     h4 {
         font-family: shrikhand;
@@ -61,12 +50,12 @@
     }
 }
 
-
 h5 {
     font-family: roboto;
     font-size: 16px;
     font-weight: 300;
     line-height: 18.75px;
+    margin-bottom: 25px;
     color: black;
     text-decoration: underline 3px solid #99e2d0;
     padding-top: 28px;
@@ -74,32 +63,35 @@ h5 {
 }
 
 .card__content2 {
-    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 15.04px;
     background-color: white;
+    padding: 16px;
+    margin: 16px 0;
     h6 {
         font-family: roboto;
         font-weight: bold;
         font-size: 18px;
-        margin-top: 30px;
-        margin-left: 30px;
         color: black;
-        padding-top: 15px;
     }
     .card__subtile2 {
         font-family: roboto;
         font-weight: 300;
         font-size: 15.04px;
         line-height: 17.63px;
-        margin-left: 30px;
         color: black;
+    }
+    .card__rating2 {
+       padding: 10px;
+       position: relative;
     }
 }
 
 .button2 {
-    margin-top: 40px;
+    padding: 40px;
     .button__btn2 {
-        border: 0;
         padding: 12px 24px;
         font-weight: 500;
         font-size: 17.6px;
@@ -108,7 +100,7 @@ h5 {
         background-color: #686868;
         background-image: linear-gradient(0deg, #9356dc, #ff79da);
         cursor: pointer;
-        margin-left: 125px;
+        margin-left: 95px;
         box-shadow: 4px 4px 10px;
     }
 }

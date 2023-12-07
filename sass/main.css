@@ -43,6 +43,7 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+  padding: 0;
 }
 
 li {
@@ -50,8 +51,8 @@ li {
   background-color: #f6f6f6;
   box-shadow: 0 4px 8px 5px #fff;
   border-radius: 20px;
-  padding: 28px 35px;
-  margin: 0 14px;
+  padding: 30px 35px;
+  margin: 16px 26px;
   transition: 3s;
 }
 
@@ -136,7 +137,7 @@ footer nav a .fa-utensils {
 }
 
 * {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   list-style: none;
 }
@@ -144,27 +145,25 @@ footer nav a .fa-utensils {
 .info {
   background-color: #f6f6f6;
   margin-bottom: 25px;
-  padding: 0px;
-  height: 215px;
+  padding: 40px;
+  text-align: center;
 }
 .info h1 {
   color: #000000;
-  font-family: roboto;
   font-weight: 700;
   font-size: 24px;
   line-height: 28.13px;
-  padding-top: 25px;
-  padding-left: 42px;
+}
+@media screen and (min-width: 1024px) {
+  .info h1 {
+    font-size: 40px;
+  }
 }
 .info p {
   margin-block-start: 16px;
   margin-block-end: 50px;
-  font-family: roboto;
   font-size: 18px;
   font-weight: 300;
-  height: 46px;
-  margin-top: 20px;
-  margin-left: 70px;
   color: #353535;
 }
 
@@ -172,7 +171,7 @@ footer nav a .fa-utensils {
   display: flex;
   justify-content: center;
   padding: 20px 16px;
-  background-color: #f3f3f3;
+  background-color: #EAEAEA;
   font-size: 19px;
   position: relative;
 }
@@ -188,19 +187,22 @@ footer nav a .fa-utensils {
   border: 0;
   padding: 12px 24px;
   font-weight: 500;
-  font-size: 17.6px;
+  font-size: 18px;
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
   background-image: linear-gradient(0deg, #9356DC, #FF79DA);
   cursor: pointer;
-  margin-left: 90px;
   box-shadow: 4px 4px 10px;
 }
 
+.en-tete {
+  height: 275px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .en-tete img {
   width: 100%;
-  height: 275px;
 }
 
 .lien-icon .fa-arrow-left {
@@ -215,30 +217,9 @@ footer nav a .fa-utensils {
 .container-menu2 {
   width: 100%;
   background-color: #f6f6f6;
-  height: 1295px;
   border-radius: 45px 45px 0px 0px;
   margin-top: -64px;
   position: relative;
-}
-
-.container-menu {
-  width: 100%;
-  background-color: #f6f6f6;
-  height: 1185px;
-  border-radius: 45px 45px 0px 0px;
-  margin-top: -64px;
-  position: relative;
-}
-
-.info__prix2 {
-  width: 27px;
-  height: 18px;
-  line-height: 17.63px;
-  position: relative;
-  bottom: 30px;
-  font-weight: bold;
-  font-size: 15.04px;
-  margin-left: 357px;
 }
 
 .info-title h4 {
@@ -264,6 +245,7 @@ h5 {
   font-size: 16px;
   font-weight: 300;
   line-height: 18.75px;
+  margin-bottom: 25px;
   color: black;
   -webkit-text-decoration: underline 3px solid #99e2d0;
           text-decoration: underline 3px solid #99e2d0;
@@ -272,43 +254,44 @@ h5 {
 }
 
 .card__content2 {
-  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 15.04px;
   background-color: white;
-  margin-left: 20px;
-  margin-right: 15px;
+  padding: 16px;
+  margin: 16px 0;
 }
 .card__content2 h6 {
   font-family: roboto;
   font-weight: bold;
   font-size: 18px;
-  margin-top: 30px;
-  margin-left: 30px;
   color: black;
-  padding-top: 15px;
 }
 .card__content2 .card__subtile2 {
   font-family: roboto;
   font-weight: 300;
   font-size: 15.04px;
   line-height: 17.63px;
-  margin-left: 30px;
   color: black;
+}
+.card__content2 .card__rating2 {
+  padding: 10px;
+  position: relative;
 }
 
 .button2 {
-  margin-top: 40px;
+  padding: 40px;
 }
 .button2 .button__btn2 {
-  border: 0;
   padding: 12px 24px;
   font-weight: 500;
   font-size: 17.6px;
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
-  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  background-image: linear-gradient(0deg, #9356dc, #ff79da);
   cursor: pointer;
-  margin-left: 125px;
+  margin-left: 95px;
   box-shadow: 4px 4px 10px;
 }/*# sourceMappingURL=main.css.map */
