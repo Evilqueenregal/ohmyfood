@@ -100,16 +100,17 @@ h5 {
         color: black;
     }
     .card__rating2 {
-       padding: 10px;
-       position: relative;
-       display: flex;
+       margin-right: -278px;
     }
     .info__prix2 {
-        margin-right: 15px;
+        position: relative;
     }
     .info__check {
         background-color: #99E2D0;
         border-radius: 0px 15px 15px 0px;
+        margin-right: -266px;
+        overflow: hidden;
+        position: absolute;
     }
 }
 

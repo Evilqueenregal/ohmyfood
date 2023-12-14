@@ -9,15 +9,14 @@
     position: fixed;
     display: grid;
     place-items: center;
-    background-color:#99e2dc54 ;
+    background-color:rgba(255,255,255,0.9) ;
     height: 100vh;
     inset: 0;
     z-index: 1;
-    opacity: 1;
     animation: disappear 200ms $animation-duration forwards;
    span {
     animation: spin $animation-duration infinite linear;
-    color:rgb(242, 188, 242);
+    color:#ff79da;
    }
 }
 

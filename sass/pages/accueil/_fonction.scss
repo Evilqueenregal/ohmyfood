@@ -1,7 +1,12 @@
 .fonction {
-h2 {
-    margin-left: 20px;
-}
+    .container {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        h2 {
+            margin-left: 20px;
+        }
+    }
 }
 .fonction__icons {
     display: flex;
