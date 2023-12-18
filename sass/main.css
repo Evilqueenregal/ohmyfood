@@ -333,8 +333,8 @@ h5 {
   align-items: center;
   border-radius: 15.04px;
   background-color: white;
-  padding: 16px;
-  margin: 16px 0;
+  padding: 7px;
+  margin: 10px 33px;
 }
 .card__content2 h6 {
   font-family: roboto;
@@ -349,22 +349,34 @@ h5 {
   line-height: 17.63px;
   color: black;
 }
-.card__content2 .card__rating2 {
-  margin-right: -278px;
-}
 .card__content2 .info__prix2 {
   position: relative;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.card__content2 .check {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 .card__content2 .info__check {
   background-color: #99E2D0;
   border-radius: 0px 15px 15px 0px;
-  margin-right: -266px;
   overflow: hidden;
   position: absolute;
+  height: 53px;
+  display: flex;
+  align-self: center;
 }
 
 .button2 {
   padding: 40px;
+  text-align: center;
+  margin-right: 80px;
+}
+.button2:hover {
+  opacity: 0.7;
 }
 .button2 .button__btn2 {
   padding: 12px 24px;
