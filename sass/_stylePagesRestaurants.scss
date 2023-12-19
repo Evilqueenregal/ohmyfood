@@ -30,7 +30,7 @@
 
 
 //autres pages//
-.info-title {
+.info-title { 
     h4 {
         font-family: shrikhand;
         font-weight: 400;
@@ -81,16 +81,18 @@ h5 {
 .card__content2 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     border-radius: 15.04px;
     background-color: white;
-    padding: 7px;
-    margin: 10px 33px;
+    margin: 10px 16px;
+    overflow: hidden;
     h6 {
         font-family: roboto;
         font-weight: bold;
         font-size: 18px;
         color: black;
+        margin-top: 10px;
+        margin-left: 10px;
     }
     .card__subtile2 {
         font-family: roboto;
@@ -98,27 +100,31 @@ h5 {
         font-size: 15.04px;
         line-height: 17.63px;
         color: black;
+        margin-left: 10px;
     }
-    
     .info__prix2 {
         position: relative;
         font-weight: 700;
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .check {
-        display: flex;
-        align-items: center;
-        overflow: hidden;
     }
     .info__check {
         background-color: #99E2D0;
         border-radius: 0px 15px 15px 0px;
         overflow: hidden;
-        position: absolute;
-        height: 53px;
+        position: relative;
+        height: 52px;
+        color: white;
+        margin-right: -40px;
+        width: 40px;
+        margin-bottom: -4px;
+        transition: margin-right 0.5s;
+    }
+    .fa-circle-check::before {
         display: flex;
-        align-self: center;
+        justify-content: center;
+        margin-top: 18px;
+    }
+    &:hover .info__check {
+        margin-right: 0px;
     }
 }
 
