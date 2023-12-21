@@ -1,8 +1,10 @@
 footer {
+    @media screen and (min-width: 1024px) {
+       display: flex;
+    }
     background-color: #353535;
     height: 186px;
     padding: 22px 25px 22px 25px;
-    gap: 16px;
     .title {
         h3 {
         font-family: shrikhand;

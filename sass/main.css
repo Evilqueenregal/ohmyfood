@@ -57,12 +57,12 @@ ul {
 }
 
 li {
+  width: 30%;
   display: list-item;
   background-color: #f6f6f6;
   box-shadow: 0 4px 8px 5px #fff;
   border-radius: 20px;
   padding: 30px 35px;
-  margin: 16px 26px;
   transition: 3s;
 }
 
@@ -71,9 +71,6 @@ li {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
   padding: 30px;
   max-width: 1440px;
   margin-left: auto;
@@ -88,11 +85,13 @@ li {
   }
 }
 .container .containerCardRestaurant .card {
+  display: block;
   background-color: #fff;
   border-radius: 20px;
   text-decoration: none;
   color: #000;
   position: relative;
+  margin-bottom: 20px;
 }
 .container .containerCardRestaurant .card .card__content {
   display: flex;
@@ -150,7 +149,11 @@ footer {
   background-color: #353535;
   height: 186px;
   padding: 22px 25px 22px 25px;
-  gap: 16px;
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    display: flex;
+  }
 }
 footer .title h3 {
   font-family: shrikhand;
@@ -267,13 +270,11 @@ footer nav a .fa-utensils {
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.en-tete {
-  height: 275px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 .en-tete img {
   width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .lien-icon .fa-arrow-left {
@@ -291,9 +292,19 @@ footer nav a .fa-utensils {
   border-radius: 45px 45px 0px 0px;
   margin-top: -64px;
   position: relative;
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.info-title h4 {
+.info-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 35px;
+}
+.info-title h1 {
   font-family: shrikhand;
   font-weight: 400;
   font-style: italic;
@@ -305,29 +316,24 @@ footer nav a .fa-utensils {
 }
 .info-title .far {
   color: black;
-  margin-top: -34px;
-  margin-left: 366px;
-  position: absolute;
   font-size: xx-large;
   opacity: 1;
 }
 .info-title .fas {
   transition: all 0.5s;
-  position: absolute;
   color: transparent;
   background-image: linear-gradient(0deg, #9356DC, #FF79DA);
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
-  margin-top: -34px;
-  margin-left: 366px;
+  margin-left: -62px;
   font-size: xx-large;
 }
 .info-title:hover .fas {
   opacity: 1;
 }
 
-h5 {
+h2 {
   font-family: roboto;
   font-size: 16px;
   font-weight: 300;
@@ -349,7 +355,7 @@ h5 {
   margin: 10px 16px;
   overflow: hidden;
 }
-.card__content2 h6 {
+.card__content2 h3 {
   font-family: roboto;
   font-weight: bold;
   font-size: 18px;
