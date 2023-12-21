@@ -333,7 +333,7 @@ footer nav a .fa-utensils {
   opacity: 1;
 }
 
-h2 {
+h5 {
   font-family: roboto;
   font-size: 16px;
   font-weight: 300;
@@ -355,7 +355,7 @@ h2 {
   margin: 10px 16px;
   overflow: hidden;
 }
-.card__content2 h3 {
+.card__content2 h6 {
   font-family: roboto;
   font-weight: bold;
   font-size: 18px;
