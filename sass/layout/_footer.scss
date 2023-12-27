@@ -1,19 +1,16 @@
 footer {
-    @media screen and (min-width: 1024px) {
-       display: flex;
-    }
     background-color: #353535;
     height: 186px;
     padding: 22px 25px 22px 25px;
     .title {
         h3 {
-        font-family: shrikhand;
-        font-weight: 400;
-        font-style: italic;
-        size: 18px;
-        line-height: 26.24px;
-        color: white;
-        margin-bottom: 22px;
+            font-family: shrikhand;
+            font-weight: 400;
+            font-style: italic;
+            size: 18px;
+            line-height: 26.24px;
+            color: white;
+            margin-bottom: 22px;
         }
     }
     nav {
@@ -31,5 +28,23 @@ footer {
             }
         }
     } 
+    @media screen and (min-width: 1024px) {
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       flex-direction: row-reverse;
+    .title {
+        h3 {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 0;
+        }
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    }
 }
 

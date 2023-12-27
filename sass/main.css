@@ -20,21 +20,32 @@ header .logo a img {
 .fonction .container h2 {
   margin-left: 20px;
 }
+@media screen and (min-width: 1024px) {
+  .fonction .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .fonction__icon {
   display: flex;
   flex-direction: column;
   background-color: #fff;
   list-style: none;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
+  -webkit-box-pack: justify;
   gap: 25px;
 }
 @media screen and (min-width: 1024px) {
   .fonction__icon {
     flex-direction: row;
   }
+}
+.fonction__icon .fa-solid {
+  margin-right: 15px;
+  color: #7E7E7E;
+}
+.fonction__icon .fa-solid:hover {
+  color: #9356dc;
 }
 
 .fonction__number {
@@ -57,13 +68,17 @@ ul {
 }
 
 li {
-  width: 30%;
   display: list-item;
   background-color: #f6f6f6;
   box-shadow: 0 4px 8px 5px #fff;
   border-radius: 20px;
   padding: 30px 35px;
   transition: 3s;
+}
+@media screen and (min-width: 1024px) {
+  li {
+    width: 33%;
+  }
 }
 
 .restaurants {
@@ -150,11 +165,6 @@ footer {
   height: 186px;
   padding: 22px 25px 22px 25px;
 }
-@media screen and (min-width: 1024px) {
-  footer {
-    display: flex;
-  }
-}
 footer .title h3 {
   font-family: shrikhand;
   font-weight: 400;
@@ -178,6 +188,24 @@ footer nav a i {
 }
 footer nav a .fa-utensils {
   margin-right: 15px;
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  footer .title h3 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 0;
+  }
+  footer .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
 }
 
 * {
@@ -346,6 +374,11 @@ h5 {
   padding-left: 20px;
 }
 
+.entree {
+  transform: translatey(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
 .card__content2 {
   display: flex;
   justify-content: space-between;
@@ -354,6 +387,7 @@ h5 {
   background-color: white;
   margin: 10px 16px;
   overflow: hidden;
+  box-shadow: #686868 0 1px 4px;
 }
 .card__content2 h6 {
   font-family: roboto;
@@ -396,6 +430,15 @@ h5 {
   margin-right: 0px;
 }
 
+@keyframes entree {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
 .button2 {
   padding: 40px;
   text-align: center;

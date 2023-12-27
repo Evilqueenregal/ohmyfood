@@ -6,6 +6,10 @@
         h2 {
             margin-left: 20px;
         }
+        @media screen and (min-width: 1024px) {
+            display: flex;
+            flex-direction: column;
+        } 
     }
 }
 .fonction__icon {
@@ -14,13 +18,17 @@
     background-color:#fff ;
     list-style: none;
     -webkit-box-pack: justify;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
     gap: 25px;
     @media screen and (min-width: 1024px) {
         flex-direction: row;
-    }  
+    } 
+.fa-solid {
+   margin-right: 15px;
+    color: #7E7E7E;
+    &:hover {
+    color :#9356dc;
+    }
+} 
 }
 
 .fonction__number {
@@ -43,13 +51,16 @@ ul {
 }
 
 li {
-    width: 30%;
+    
     display: list-item;
     background-color: #f6f6f6;
     box-shadow: 0 4px 8px 5px #fff;
     border-radius: 20px;
     padding: 30px 35px;
     transition: 3s;
+    @media screen and (min-width: 1024px) {
+       width: 33%;
+    } 
 }
 
 
