@@ -162,8 +162,7 @@ li {
 
 footer {
   background-color: #353535;
-  height: 186px;
-  padding: 22px 25px 22px 25px;
+  padding: 40px 25px 40px 25px;
 }
 footer .title h3 {
   font-family: shrikhand;
@@ -212,6 +211,15 @@ footer nav a .fa-utensils {
   font-family: "Roboto", sans-serif;
   margin: 0;
   list-style: none;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 2.13px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
 }
 
 .loader {
@@ -333,7 +341,7 @@ footer nav a .fa-utensils {
   padding: 35px;
 }
 .info-title h1 {
-  font-family: shrikhand;
+  font-family: "Shrikhand", serif;
   font-weight: 400;
   font-style: italic;
   font-size: 28px;
@@ -361,8 +369,7 @@ footer nav a .fa-utensils {
   opacity: 1;
 }
 
-h5 {
-  font-family: roboto;
+.title2 h2 {
   font-size: 16px;
   font-weight: 300;
   line-height: 18.75px;
@@ -374,11 +381,32 @@ h5 {
   padding-left: 20px;
 }
 
-.entree {
-  transform: translatey(20px);
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+.entree, .plat, .dessert {
+  animation: menu;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
+.entree {
+  animation-delay: 0.5s;
+}
+
+.plat {
+  animation-delay: 1s;
+}
+
+.dessert {
+  animation-duration: 1.5s;
+}
+
+@keyframes menu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .card__content2 {
   display: flex;
   justify-content: space-between;
@@ -387,9 +415,9 @@ h5 {
   background-color: white;
   margin: 10px 16px;
   overflow: hidden;
-  box-shadow: #686868 0 1px 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.card__content2 h6 {
+.card__content2 h3 {
   font-family: roboto;
   font-weight: bold;
   font-size: 18px;
@@ -398,7 +426,6 @@ h5 {
   margin-left: 10px;
 }
 .card__content2 .card__subtile2 {
-  font-family: roboto;
   font-weight: 300;
   font-size: 15.04px;
   line-height: 17.63px;
@@ -430,15 +457,6 @@ h5 {
   margin-right: 0px;
 }
 
-@keyframes entree {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
 .button2 {
   padding: 40px;
   text-align: center;

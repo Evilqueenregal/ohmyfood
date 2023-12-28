@@ -4,6 +4,15 @@
     list-style: none;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.13px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+}
+
 .loader {
     $animation-duration: 3s;
     position: fixed;
@@ -73,6 +82,8 @@
         font-weight: 700;
     }
 }
+
+
 //bouton page d accueil//
 .info__btn {
     border: 0;
