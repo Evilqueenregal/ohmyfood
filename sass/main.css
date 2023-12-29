@@ -419,6 +419,9 @@ h2 {
 }
 .card__content2 .card__txt2 {
   width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-wrap: nowrap;
 }
 .card__content2 h3 {
   font-family: roboto;

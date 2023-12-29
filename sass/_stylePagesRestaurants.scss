@@ -120,6 +120,9 @@
     box-shadow: rgba(149, 157, 165,0.2) 0px 8px 24px;
 .card__txt2 {
     width: 70%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
 }
     h3 {
         font-family: roboto;
