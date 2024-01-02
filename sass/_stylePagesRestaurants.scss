@@ -49,6 +49,7 @@
         color: #101010;
         margin-left: 15px;
         padding-top: 10px;
+        text-wrap: nowrap;
     }
     .far {
         color: black;
@@ -65,7 +66,7 @@
         margin-left: -62px;
         font-size: xx-large;
     }
-    &:hover .fas {
+    &:hover .fas h1 {
         opacity: 1;
     }
 }
@@ -119,7 +120,7 @@
     overflow: hidden;
     box-shadow: rgba(149, 157, 165,0.2) 0px 8px 24px;
 .card__txt2 {
-    width: 70%;
+    width: 74%;
     text-overflow: ellipsis;
     overflow: hidden;
     text-wrap: nowrap;
@@ -127,23 +128,23 @@
     h3 {
         font-family: roboto;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 1rem;
         color: black;
         margin-top: 10px;
         margin-left: 10px;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
     .card__subtile2 {
         font-weight: 300;
-        font-size: 15.04px;
+        font-size: 0.8rem;
         line-height: 17.63px;
         color: black;
         margin-left: 10px;
-    }
-    &:hover h3 .card__subtile2 {
         text-overflow: ellipsis;
         overflow: hidden;
-        text-wrap: nowrap;
     }
+    
     .info__prix2 {
         position: relative;
         font-weight: 700;

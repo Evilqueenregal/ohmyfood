@@ -349,6 +349,7 @@ h2 {
   color: #101010;
   margin-left: 15px;
   padding-top: 10px;
+  text-wrap: nowrap;
 }
 .info-title .far {
   color: black;
@@ -365,7 +366,7 @@ h2 {
   margin-left: -62px;
   font-size: xx-large;
 }
-.info-title:hover .fas {
+.info-title:hover .fas h1 {
   opacity: 1;
 }
 
@@ -418,7 +419,7 @@ h2 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .card__content2 .card__txt2 {
-  width: 70%;
+  width: 74%;
   text-overflow: ellipsis;
   overflow: hidden;
   text-wrap: nowrap;
@@ -426,22 +427,21 @@ h2 {
 .card__content2 h3 {
   font-family: roboto;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1rem;
   color: black;
   margin-top: 10px;
   margin-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .card__content2 .card__subtile2 {
   font-weight: 300;
-  font-size: 15.04px;
+  font-size: 0.8rem;
   line-height: 17.63px;
   color: black;
   margin-left: 10px;
-}
-.card__content2:hover h3 .card__subtile2 {
   text-overflow: ellipsis;
   overflow: hidden;
-  text-wrap: nowrap;
 }
 .card__content2 .info__prix2 {
   position: relative;
