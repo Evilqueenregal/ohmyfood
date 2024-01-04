@@ -14,7 +14,7 @@
         height: 16px;
         position: absolute;
         margin-top: 9px;
-        margin-left: -99px;
+        left: 10px;
         color: #353535;
     }
 }
@@ -119,26 +119,29 @@
     margin: 10px 16px;
     overflow: hidden;
     box-shadow: rgba(149, 157, 165,0.2) 0px 8px 24px;
-.card__txt2 {
-    width: 74%;
+    & :hover {
+        .card__txt2 {   
+    width: 75%;
     text-overflow: ellipsis;
     overflow: hidden;
     text-wrap: nowrap;
+    } 
 }
     h3 {
         font-family: roboto;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 18px;
         color: black;
         margin-top: 10px;
         margin-left: 10px;
         text-overflow: ellipsis;
         overflow: hidden;
+        
     }
     .card__subtile2 {
         font-weight: 300;
-        font-size: 0.8rem;
-        line-height: 17.63px;
+        font-size: 15px;
+        line-height: 17px;
         color: black;
         margin-left: 10px;
         text-overflow: ellipsis;
