@@ -366,7 +366,7 @@ h2 {
   margin-left: -62px;
   font-size: xx-large;
 }
-.info-title:hover .fas h1 {
+.info-title:hover .fas {
   opacity: 1;
 }
 
