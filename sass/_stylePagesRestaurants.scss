@@ -110,6 +110,7 @@
        opacity: 1;
     }
 }
+
 .card__content2 {
     display: flex;
     justify-content: space-between;
@@ -118,62 +119,58 @@
     background-color: white;
     margin: 10px 16px;
     overflow: hidden;
-    box-shadow: rgba(149, 157, 165,0.2) 0px 8px 24px;
-    & :hover {
-        .card__txt2 {   
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card__content2:hover .card__txt2 {
     width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+.card__content2 h3 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card__content2:hover h3 {
     text-overflow: ellipsis;
     overflow: hidden;
     text-wrap: nowrap;
-    } 
+    width: 75%;
 }
-    h3 {
-        font-family: roboto;
-        font-weight: bold;
-        font-size: 18px;
-        color: black;
-        margin-top: 10px;
-        margin-left: 10px;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        
-    }
-    .card__subtile2 {
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 17px;
-        color: black;
-        margin-left: 10px;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-    
-    .info__prix2 {
-        position: relative;
-        font-weight: 700;
-    }
-    .info__check {
-        background-color: #99E2D0;
-        border-radius: 0px 15px 15px 0px;
-        overflow: hidden;
-        position: relative;
-        height: 52px;
-        color: white;
-        margin-right: -40px;
-        width: 40px;
-        margin-bottom: -4px;
-        transition: margin-right 0.5s;
-    }
-    .fa-circle-check::before {
-        display: flex;
-        justify-content: center;
-        margin-top: 18px;
-    }
-    &:hover .info__check {
-        margin-right: 0px;
-    }
+.card__content2 .card__subtile2 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17.63px;
+    color: black;
+    margin-left: 10px;
 }
-
+.card__content2 .info__prix2 {
+    position: relative;
+    font-weight: 700;
+}
+.card__content2 .info__check {
+    background-color: #99e2d0;
+    border-radius: 0px 15px 15px 0px;
+    overflow: hidden;
+    position: relative;
+    height: 52px;
+    color: white;
+    margin-right: -40px;
+    width: 40px;
+    margin-bottom: -4px;
+    transition: margin-right 0.5s;
+}
+.card__content2 .fa-circle-check::before {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.card__content2:hover .info__check {
+    margin-right: 0px;
+}
 
 .button2 {
     padding: 40px;
